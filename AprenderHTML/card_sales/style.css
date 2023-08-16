@@ -1,0 +1,60 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: darkcyan;
+}
+.card{
+padding: 1rem;
+background-color: aliceblue;
+border-radius: 20px;
+box-shadow: 10px 10px #323232;
+border: 3px solid #323232;
+    .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+        .bxs-dollar-circle{
+            font-size: 25px;
+            color: green;
+        }
+        .title-text {
+            margin-left: 10px;
+            color: #323232;
+            font-weight: 650;
+            font-size: 18px;
+        }
+        .porcentaje{
+            margin-left: 0.5rem;
+            color: green;
+            font-weight: 600;
+
+        }
+        
+        
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .total {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            color: #323232;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+    }
+}
